@@ -19,7 +19,7 @@ public class HibernateUtil {
                 settings.put(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
                 settings.put(Environment.URL, "jdbc:mysql://localhost:3306/expenses_db?createDatabaseIfNotExist=true");
                 settings.put(Environment.USER, "root");
-                settings.put(Environment.PASS, "kol97szc");
+                settings.put(Environment.PASS, "root");
                 settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQL5Dialect");
                 settings.put(Environment.C3P0_MIN_SIZE, "5");
                 settings.put(Environment.CONNECTION_PROVIDER, "org.hibernate.connection.C3P0ConnectionProvider");
