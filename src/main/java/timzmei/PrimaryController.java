@@ -97,7 +97,8 @@ public class PrimaryController {
         listCopy = FXCollections.observableArrayList();
 
         series = new XYChart.Series<>();
-        chart.getData().add(series);
+        chart.getData().addAll(series);
+
 
         setField("0", LocalDate.now(), "");
 
@@ -203,6 +204,7 @@ public class PrimaryController {
                 spent -= t.getAmount();
             total += t.getAmount();
             int timeDiff = dateDifference(t.getDate(), LocalDate.now());
+
             series.getData().add(new XYChart.Data<Number, Number>(timeDiff, total));
         }
 

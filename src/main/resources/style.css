@@ -1,0 +1,19 @@
+    .series{
+        -fx-stroke-width: 10px;
+        -fx-stroke: #EC407A;
+    }
+
+    .default-color0.series{-fx-stroke: #EC407A;}
+    .default-color1.series{-fx-stroke: #5E35B1;}
+    .default-color2.series{-fx-stroke: #EC407A;}
+
+
+    .default-color0.chart-line-symbol{-fx-background-color: #29B6F6, #ffffff;
+
+    }
+    .default-color1.chart-line-symbol{-fx-background-color: #5E35B1, #ffffff;
+
+    }
+    .default-color2.chart-line-symbol{-fx-background-color: #EC407A, #ffffff;
+
+    }
